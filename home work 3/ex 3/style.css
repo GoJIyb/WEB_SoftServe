@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+dt {
+    font-style: italic;
+    margin: 30px 0px;
+}
+.grey {
+    color: grey;
+    margin: 4px 0px;
+    padding: 0;
+}
+.blue {
+    margin: 4px 0px;
+    padding: 0;
+    color: blue;
+}
+p {
+    margin: 3px 0px;
+    padding-left: 24px;
+}
