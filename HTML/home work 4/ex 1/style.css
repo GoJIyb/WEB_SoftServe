@@ -1,0 +1,55 @@
+.style-tabl {
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+td, th {
+    padding: 16px;
+}
+td:first-child {
+    text-align: left;
+}
+thead th:nth-child(1){
+    background-color: rgb(120, 120, 150);
+}
+thead th:nth-child(2){
+    background-color: rgb(160, 160, 220);
+}
+thead th:nth-child(3){
+    background-color: rgb(64, 64, 130);
+}
+thead th:nth-child(4){
+    background-color: rgb(25, 25, 90);
+}
+thead th:nth-child(5){
+    background-color: rgb(10, 10, 60);
+}
+tbody tr:nth-child(odd) td:nth-child(odd), tfoot th:nth-child(odd) 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even),
+tfoot th:nth-child(even)
+{
+    background-color: rgb(240, 240, 240);
+}
+.style-buttom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(170, 170, 170);
+    opacity: .5;
+}
+thead {
+    color: white;
+}
+.money {
+    font-size: 36px;
+}
+.totop {
+    vertical-align: text-top;
+}

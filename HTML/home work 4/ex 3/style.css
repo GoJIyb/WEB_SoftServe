@@ -1,0 +1,63 @@
+header {
+    float: left;
+    color: white;
+    background-color: rgb(140, 140, 140);
+    min-height: 100vh;
+    width: 5vw;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+}
+body {
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 3vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+h2, p, li {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    margin-top: 7vh;
+}
+li::before
+{
+    background-size: 3vw 3vh;
+    display:inline-block;
+    width: 3vw;
+    height: 3vh;
+    content: "";
+}
+li:nth-child(1)::before
+{
+    background-image: url("icons/pencil.png");
+}
+li:nth-child(2)::before
+{
+    background-image: url("icons/head.png");
+}
+li:nth-child(3)::before
+{
+    background-image: url("icons/clock.png");
+}
+li:nth-child(4)::before
+{
+    background-image: url("icons/shield.png");
+}
+li:nth-child(5)::before
+{
+    background-image: url("icons/setting.png");
+}
