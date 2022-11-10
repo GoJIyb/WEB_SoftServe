@@ -44,20 +44,30 @@ li::before
 li:nth-child(1)::before
 {
     background-image: url("icons/pencil.png");
+    padding-top: 0.13vh;
+    padding-bottom: 0.13vh;
 }
 li:nth-child(2)::before
 {
-    background-image: url("icons/head.png");
+    background-image: url("icons/heart.png");
+    padding-top: 0.13vh;
+    padding-bottom: 0.13vh;
 }
 li:nth-child(3)::before
 {
     background-image: url("icons/clock.png");
+    padding-top: 0.13vh;
+    padding-bottom: 0.13vh;
 }
 li:nth-child(4)::before
 {
     background-image: url("icons/shield.png");
+    padding-top: 0.13vh;
+    padding-bottom: 0.13vh;
 }
 li:nth-child(5)::before
 {
     background-image: url("icons/setting.png");
+    padding-top: 0.13vh;
+    padding-bottom: 0.13vh;
 }
