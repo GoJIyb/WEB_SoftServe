@@ -1,9 +1,9 @@
 .main {
-    background-color: rgb(48, 48, 90);
+    background-color: rgb(12, 12, 94);
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 5px;
-    height: calc(100vh - 16px);
+    padding: 7px;
+    height: calc(138vh - 16px);
 }
 body {
     margin: 8px;
@@ -13,7 +13,7 @@ header {
     padding: 1%;
     margin: 15px;
     justify-content: space-between;
-    background-color: rgb(138, 58, 58);
+    background-color: rgb(189, 59, 59);
     border-radius: 7px;
 }
 header div, footer, body div section {
@@ -24,26 +24,26 @@ header div, footer, body div section {
     padding: 10px;
 }
 header div {
-    background-color: rgb(138, 58, 58);
+    background-color: rgb(189, 59, 59);
 }
 header div:nth-child(2){
     margin-right: auto;
     margin-left: 5%;
 }
 footer {
-    background-color: rgb(98, 40, 146);
+    background-color: rgb(76, 28, 116);
     padding: 3%;
     margin: 15px;
     border-radius: 7px;
 }
 body div section div:first-child {
-    background-color: rgb(116, 116, 48);
+    background-color: rgb(223, 223, 57);
 }
 body div section div:nth-child(2) {
-    background-color: rgb(31, 127, 218);
+    background-color: rgb(33, 97, 156);
 }
 body div section div:nth-child(3) {
-    background-color: rgb(39, 139, 97);
+    background-color: rgb(24, 143, 143);
 }
 body div section div {
     padding-left: 20px;
