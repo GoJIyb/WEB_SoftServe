@@ -4,6 +4,12 @@ body {
     background-color: rgb(80, 78, 78);
 }
 
+.name {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold
+}
+
 p, h2, main div, pre{
     color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
