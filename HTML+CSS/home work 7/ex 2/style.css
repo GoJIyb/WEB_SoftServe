@@ -1,0 +1,53 @@
+section {
+    box-sizing: border-box;
+    margin: 10%;
+    margin-top: 5%;
+    min-height: 100%;
+    display: grid;
+    gap: 10px;
+    align-items:center;
+}
+.male_avatar, .favatar {
+    display: flex;
+}
+.male_avatar {
+    grid-column: 3;
+}
+.female_avatar {
+    grid-column: 1;
+}
+.hour_female {
+    color: gray;
+    text-align: left;
+    margin: 0;
+}
+.hour_male {
+    color: gray;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+.base_female, .base_male {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.female_text, .male_text {
+    overflow: hidden;
+    grid-column: 2;
+}
+.female_text {
+    background-color: pink;
+    border-radius: 30px 30px 30px 0px;
+
+}
+.female_text p, .male_text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 16px;
+}
+.male_text{
+    background-color: lightblue;
+    border-radius: 30px 30px 0px 30px;
+}
