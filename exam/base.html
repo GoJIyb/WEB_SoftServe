@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exam</title>
+</head>
+
+    <body>
+    <div class="styled-div">
+        <div>
+            <span>Назва завдання</span>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <span>Термін виконання завдання</span>
+            <input type="text" id="termin">
+        </div>
+        <div class="prior">
+            <span>Пріорітет</span>
+            <select id="prior">
+                <option>можна проігнорувати</option>
+                <option>низький</option>
+                <option>середній</option>
+                <option>високий</option>
+                <option>виконати негайно</option>>
+            </select>
+        </div>
+        <div>
+            <span>Опис</span>
+            <input type="text" id="description">
+        </div>
+
+        <div>
+        <button id="styled-button" class="btn btn-info">Додати</button>
+        <button id="clear-button" class="btn btn-info">Очистити</button>
+        </div>
+    </div>
+
+    <input class="form-control" type="text" placeholder="Знайти завдання" id="search" onkeyup="tableSearch()">
+    <table class="table table-hover" id="ToDoList-table">
+
+        <thead>
+            <th>
+                Назва завдання
+            </th>
+            <th>
+                Термін виконання завдання
+            </th>
+            <th>
+                Пріорітет
+            </th>
+            <th>
+                Опис
+            </th>
+            <th>
+                Очистити
+            </th>
+        </thead>
+
+        <tbody>
+            
+        </tbody>
+    </table>
+    
+    <script src="java.js"></script>
+    </body>
+
+</html>

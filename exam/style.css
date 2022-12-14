@@ -1,0 +1,63 @@
+body{
+    background-image: url(fon.jpg);
+}
+.styled-div div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.styled-div div input {
+    margin-right: 58%;
+}
+button {
+    margin-top: 10px;
+    min-height: 35px;
+}
+#styled-button {
+    width: 25%;
+    margin-left: 6px;
+}
+#clear-button {
+    width: 25%;
+    margin-right: 58%;
+    margin-left: 6px;
+}
+
+span {
+    margin-left: 5px;
+}
+.prior{
+    width: 42%;
+    margin-right: 58%;
+}
+input {
+    width: 13%;
+}
+
+#search {
+    width: 550px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 40px;
+}
+
+table th, .table td {
+    padding: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btn.btn-danger {
+    height: 35px;
+    width: 60px;
+}
